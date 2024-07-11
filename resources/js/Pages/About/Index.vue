@@ -1,21 +1,15 @@
 <template>
 
 <Head title="Travel" />
-
+<Header></Header>
  <div class="text-3xl text-center mt-6">About</div>
 
 </template>
 
-<script>
-import MainLayout from '../../Layouts/MainLayout.vue';
+<script setup>
+import Header from '@/Components/Header.vue';
 
-export default {
-  components: {
-    MainLayout,
-  },
-    name: "Index",
-    layout: MainLayout
-}
+
 
 </script>
 

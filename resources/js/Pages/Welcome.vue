@@ -52,21 +52,21 @@ function toggleMenu() {
                 <a
                   href="/about"
                   class="block px-3 py-2 text-base hover:text-blue-700 font-medium"
-                  >Services</a
+                  >Service</a
                 >
               </li>
               <li>
-                <a
-                  href="/about"
+                <Link
+                  :href="route('about.index')"
                   class="block px-3 py-2 text-base hover:text-blue-700 font-medium"
-                  >About</a
+                  >About</Link
                 >
-              </li>
+              </li>             
               <li>
-                <a
-                  href="/contact"
+                <Link
+                  :href="route('contact.index')"
                   class="block px-3 py-2 text-base hover:text-blue-700 font-medium"
-                  >Contact</a
+                  >Contact</Link
                 >
               </li>
             </ul>
@@ -92,19 +92,19 @@ function toggleMenu() {
               >
             </li>
             <li>
-              <a
-                href="/about"
-                class="block px-3 py-2 rounded-md text-base hover:text-blue-700 font-medium hover:bg-gray-100"
-                >About</a
-              >
-            </li>
-            <li>
-              <a
-                href="/contact"
-                class="block px-3 py-2 rounded-md text-base hover:text-blue-700 font-medium hover:bg-gray-100"
-                >Contact</a
-              >
-            </li>
+                <Link
+                  :href="route('about.index')"
+                  class="block px-3 py-2 text-base hover:text-blue-700 font-medium"
+                  >About</Link
+                >
+              </li>             
+              <li>
+                <Link
+                  :href="route('contact.index')"
+                  class="block px-3 py-2 text-base hover:text-blue-700 font-medium"
+                  >Contact</Link
+                >
+              </li>
           </ul>
         </nav>
       </div>

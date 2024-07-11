@@ -1,8 +1,8 @@
 <template>
 
-    <div>
-        Index
-    </div>
+<Head title="Travel" />
+
+ <div class="text-3xl text-center mt-6">About</div>
 
 </template>
 

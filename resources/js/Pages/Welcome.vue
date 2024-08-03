@@ -1,4 +1,5 @@
 <script setup>
+import { Head, Link } from '@inertiajs/vue3';
 import Header from '@/Components/Header.vue';
 import Banner from '@/Components/Banner.vue';
 import Search from '@/Components/Search.vue';
@@ -51,7 +52,7 @@ import Footer from '@/Components/Footer.vue';
                     <div class="border border-gray-100 bg-white rounded-lg shadow-lg">
                         <div class="">
                             <a href="#">
-                                <img class="rounded-t-lg w-full" :src="'/cards/card1.jpg'" alt="" />
+                                <img class="rounded-t-lg w-full" :src="'/cards/card1.webp'" alt="" />
                             </a>
                         </div>
                         <div class="p-4">
@@ -70,7 +71,7 @@ import Footer from '@/Components/Footer.vue';
                     <div class="border border-gray-100 bg-white rounded-lg shadow-lg">
                         <div class="">
                             <a href="#">
-                                <img class="rounded-t-lg w-full" :src="'/cards/card2.jpg'" alt="" />
+                                <img class="rounded-t-lg w-full" :src="'/cards/card2.webp'" alt="" />
                             </a>
                         </div>
                         <div class="p-4">
@@ -89,7 +90,7 @@ import Footer from '@/Components/Footer.vue';
                     <div class="border border-gray-100 bg-white rounded-lg shadow-lg">
                         <div class="">
                             <a href="#">
-                                <img class="rounded-t-lg w-full" :src="'/cards/card3.jpg'" alt="" />
+                                <img class="rounded-t-lg w-full" :src="'/cards/card3.webp'" alt="" />
                             </a>
                         </div>
                         <div class="p-4">
@@ -108,7 +109,7 @@ import Footer from '@/Components/Footer.vue';
                     <div class="border border-gray-100 bg-white rounded-lg shadow-lg">
                         <div class="">
                             <a href="#">
-                                <img class="rounded-t-lg w-full" :src="'/cards/card4.jpg'" alt="" />
+                                <img class="rounded-t-lg w-full" :src="'/cards/card4.webp'" alt="" />
                             </a>
                         </div>
                         <div class="p-4">
@@ -125,9 +126,13 @@ import Footer from '@/Components/Footer.vue';
     </div>
     <!--EndBackground-->
 
+
+
     <Map></Map>
 
     <Footer></Footer>
 
 
 </template>
+
+

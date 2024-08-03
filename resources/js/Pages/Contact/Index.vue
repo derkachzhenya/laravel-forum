@@ -1,6 +1,6 @@
 <template>
 
-    <Head title="Travel" />
+    <Head title="Contact" />
 
     <Header></Header>
     <Banner></Banner>

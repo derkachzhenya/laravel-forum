@@ -10,10 +10,10 @@
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 sm:py-0 lg:py-8">
             <div class="lg:flex">
                 <div class="md:mb-6 md:mr-8">
-                    <img class="h-28 w-28 sm:h-20 sm:w-24 lg:h-48 lg:w-56  mx-auto" :src="'/earth.png'"
+                    <img class="h-28 w-28 sm:h-20 sm:w-24 lg:h-48 lg:w-56  mx-auto" :src="'/earth.webp'"
                         alt="image description">
                 </div>
-                <div class="grid grid-cols-2 gap-8 mt-10 sm:mt-1 ml-8 sm:gap-6 sm:grid-cols-6">
+                <div class="grid grid-cols-2 gap-x-24 gap-y-8 mt-10 sm:mt-1 ml-8 sm:gap-6 sm:grid-cols-6">
                     <div>
                         <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Africa</h3>
                         <ul class="text-gray-500 dark:text-gray-400 font-medium">

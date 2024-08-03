@@ -7,12 +7,12 @@
   
   <div>
     <img
-      :src="'/img.png'"
+      :src="'/Banner-big.webp'"
       class="hidden md:block w-full md:w-auto md:h-auto"
       alt="Desktop image"
     />
     <img
-      :src="'/img1.jpg'"
+      :src="'/Banner-mobile.webp'"
       class="block md:hidden w-full"
       alt="Mobile image"
     />

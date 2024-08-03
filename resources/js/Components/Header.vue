@@ -1,17 +1,50 @@
 <script setup>
 import { Head, Link } from '@inertiajs/vue3';
-import { ref } from "vue";
+import { ref, onMounted, onUnmounted } from "vue";
 
 const menuOpen = ref(false);
+const isScrolled = ref(false);
+const isMobile = ref(false);
 
 function toggleMenu() {
   menuOpen.value = !menuOpen.value;
 }
+
+function handleScroll() {
+  if (!isMobile.value) {
+    isScrolled.value = window.scrollY > 0;
+  }
+}
+
+function handleResize() {
+  isMobile.value = window.innerWidth < 768; // 768px - стандартная точка перехода для md в Tailwind
+  if (isMobile.value) {
+    isScrolled.value = false;
+  } else {
+    handleScroll();
+  }
+}
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll);
+  window.addEventListener('resize', handleResize);
+  handleResize(); // Вызываем сразу для определения начального состояния
+});
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll);
+  window.removeEventListener('resize', handleResize);
+});
 </script>
 
 <template>
-<div>
-    <header class="py-4">
+  <div>
+    <header :class="[
+      'py-4',
+      { 'md:fixed md:top-0 md:left-0 md:right-0 md:z-50': !isMobile },
+      'transition-all duration-300',
+      { 'md:bg-white md:shadow': isScrolled && !isMobile }
+    ]">
       <div class="container mx-auto px-4 sm:w-3/4">
         <div class="flex items-center justify-between">
           <Link :href="route('main')" class="flex self-center text-2xl mr-3 font-semibold whitespace-nowrap dark:text-white">
@@ -31,10 +64,10 @@ function toggleMenu() {
           <nav class="hidden md:block">
             <ul class="flex space-x-4">
               <li>
-                <a href="/" class="block px-3 py-2 text-base text-blue-700 hover:text-blue-700 font-medium">Home</a>
+                <a href="#" class="block px-3 py-2 text-base text-blue-700 hover:text-blue-700 font-medium">Home</a>
               </li>
               <li>
-                <a href="/about" class="block px-3 py-2 text-base hover:text-blue-700 font-medium">Service</a>
+                <a href="#" class="block px-3 py-2 text-base hover:text-blue-700 font-medium">Service</a>
               </li>
               <li>
                 <Link :href="route('about.index')" class="block px-3 py-2 text-base hover:text-blue-700 font-medium">About</Link>
@@ -48,10 +81,10 @@ function toggleMenu() {
         <nav :class="{ block: menuOpen, hidden: !menuOpen }" class="md:hidden mt-4">
           <ul>
             <li>
-              <a href="/" class="block px-3 py-2 rounded-md text-base hover:text-blue-700 font-medium hover:bg-gray-100">Home</a>
+              <a href="#" class="block px-3 py-2 rounded-md text-base hover:text-blue-700 font-medium hover:bg-gray-100">Home</a>
             </li>
             <li>
-              <a href="/about" class="block px-3 py-2 rounded-md text-base hover:text-blue-700 font-medium hover:bg-gray-100">Services</a>
+              <a href="#" class="block px-3 py-2 rounded-md text-base hover:text-blue-700 font-medium hover:bg-gray-100">Services</a>
             </li>
             <li>
               <Link :href="route('about.index')" class="block px-3 py-2 text-base hover:text-blue-700 font-medium">About</Link>
@@ -63,5 +96,9 @@ function toggleMenu() {
         </nav>
       </div>
     </header>
+    <!-- Добавьте отступ для основного контента только на десктопной версии -->
+    <div :class="{ 'md:pt-20': !isMobile }">
+      <!-- Здесь размещается основной контент страницы -->
+    </div>
   </div>
 </template>

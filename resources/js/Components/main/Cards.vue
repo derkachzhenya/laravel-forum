@@ -7,7 +7,7 @@
         <div>
             <h1
                 class="mb-4 mt-8 px-4 text-xl font-bold leading-none tracking-tight text-gray-900 text-center sm:text-2xl lg:text-1xl">
-                Best Restaurants and Dining Spots for Delicious Food</h1>
+                Best Restaurants and Dining Spots for Delicious Food in Ukraine</h1>
             <!--EndText-->
         </div>
         <div class="mt-5">
@@ -16,17 +16,21 @@
                 <figure
                     class="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
                     <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Very easy this was to integrate
-                        </h3>
-                        <p class="my-4">If you care for your time, I hands down would go with this."</p>
+                       <a href="#"><h3 class="text-lg font-semibold text-gray-800 hover:text-gray-900 dark:text-white">Puzata hata
+                        </h3></a>
+                        <p class="my-4">The restaurant offers more than a thousand traditional dishes, covering all
+                            the major branches of Ukrainian cuisine. Every meal is lovingly prepared with only the
+                            freshest ingredients. Discover the rich culinary heritage of Ukraine alongside signature
+                            creations from the chef. The restaurant is dedicated to creating a unique atmosphere of
+                            comfort and hospitality.</p>
                     </blockquote>
                     <figcaption class="flex items-center justify-center ">
                         <img class="rounded-full w-9 h-9"
-                            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png"
+                            :src="'/menu/1.jpg'"
                             alt="profile picture">
                         <div class="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
-                            <div>Bonnie Green</div>
-                            <div class="text-sm text-gray-500 dark:text-gray-400 ">Developer at Open AI</div>
+                            <div>Kiev, Lviv </div>
+                            <div class="text-sm text-gray-500 dark:text-gray-400 ">Ukranian food</div>
                         </div>
                     </figcaption>
                 </figure>

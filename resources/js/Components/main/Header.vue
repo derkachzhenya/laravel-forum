@@ -38,12 +38,12 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div>
+  <div class ="bg-blue-500">
     <header :class="[
       'py-4',
       { 'md:fixed md:top-0 md:left-0 md:right-0 md:z-50': !isMobile },
       'transition-all duration-300',
-      { 'md:bg-white md:shadow': isScrolled && !isMobile }
+      { 'md:bg-blue-500 md:shadow': isScrolled && !isMobile }
     ]">
       <div class="container mx-auto px-4 sm:w-3/4">
         <div class="flex items-center justify-between">

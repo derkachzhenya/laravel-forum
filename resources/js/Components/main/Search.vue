@@ -33,8 +33,8 @@
           placeholder="Select a city..." required />
       </div>
       <button type="submit"
-        class="inline-flex items-center py-2.5 px-3 mt-3 text-center w-full ms-0 sm:ms-2 sm:w-1/5 text-sm font-medium text-white bg-blue-700 rounded-lg border 
-        border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+        class="inline-flex items-center py-2.5 px-3 mt-3 text-center w-full ms-0 sm:ms-2 sm:w-1/5 text-sm font-medium text-white bg-rose-600 rounded-lg border 
+        border-rose-600 hover:bg-rose-700 focus:ring-4 focus:outline-none focus:ring-rose-300 dark:bg-rose-600 dark:hover:bg-rose-700 dark:focus:ring-rose-800">
         <p class="mx-auto">Search</p>
       </button>
     </form>

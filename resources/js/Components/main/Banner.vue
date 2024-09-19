@@ -5,7 +5,7 @@
 <template>
 <!--Banner-->
   
-  <div>
+  <!-- <div>
     <img
       :src="'/Banner-big.webp'"
       class="hidden md:block w-full md:w-auto md:h-auto"
@@ -16,7 +16,7 @@
       class="block md:hidden w-full"
       alt="Mobile image"
     />
-  </div>
+  </div> -->
 
   <!--EndBanner-->
 </template>

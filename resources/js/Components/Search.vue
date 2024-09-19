@@ -5,7 +5,7 @@
 <template>
   <!--Search-->
   <div class='mt-5 mx-3'>
-    <form class="sm:flex items-center w-full sm:w-3/5  mx-auto">
+    <form class="sm:flex items-center w-full sm:w-3/5 mx-auto">
       <div class="relative w-full mt-3 ms-0 sm:ms-2">
         <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
           <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
@@ -15,7 +15,8 @@
           </svg>
         </div>
         <input type="text" id="simple-search"
-          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10
+           p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
           placeholder="Enter establishment name..." required />
       </div>
       <div class="relative w-full mt-3 ms-0 sm:ms-2">
@@ -27,7 +28,8 @@
           </svg>
         </div>
         <input type="text" id="simple-search"
-          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5  dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5 
+           dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
           placeholder="Select a city..." required />
       </div>
       <button type="submit"

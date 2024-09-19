@@ -24,7 +24,7 @@ import Footer from '@/Components/Footer.vue';
     <div>
         <h1
             class="mb-4 mt-8 px-4 text-3xl font-bold leading-none tracking-tight text-gray-900 text-center sm:text-3xl lg:text-4xl">
-            Best Hotels and Shops Around the World</h1>
+            Best Restaurants and Dining Spots for Delicious Food</h1>
         <p class="w-3/4 mx-auto text-lg font-normal text-gray-500 text-center lg:text-xl dark:text-gray-400"> Discover
             Top-Rated Accommodations and Shopping Destinations.</p>
         <!--EndText-->

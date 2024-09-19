@@ -15,7 +15,7 @@
                 </div>
                 <div class="grid grid-cols-2 gap-x-24 gap-y-8 mt-10 sm:mt-1 ml-8 sm:gap-6 sm:grid-cols-6">
                     <div>
-                        <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Africa</h3>
+                        <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Africa</h3>
                         <ul class="text-gray-500 dark:text-gray-400 font-medium">
                             <li class="mb-4">
                                 <a href="#" class="hover:underline">Nigeria</a>
@@ -32,7 +32,7 @@
                         </ul>
                     </div>
                     <div>
-                        <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Asia</h3>
+                        <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Asia</h3>
                         <ul class="text-gray-500 dark:text-gray-400 font-medium">
                             <li class="mb-4">
                                 <a href="#" class="hover:underline ">China</a>
@@ -49,7 +49,7 @@
                         </ul>
                     </div>
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Europe</h2>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Europe</h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-medium">
                             <li class="mb-4">
                                 <a href="#" class="hover:underline">France</a>
@@ -66,7 +66,7 @@
                         </ul>
                     </div>
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">North America
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">North America
                         </h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-medium">
                             <li class="mb-4">
@@ -84,7 +84,7 @@
                         </ul>
                     </div>
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">South America
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">South America
                         </h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-medium">
                             <li class="mb-4">
@@ -103,7 +103,7 @@
                         </ul>
                     </div>
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Australia</h2>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Australia</h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-medium">
                             <li class="mb-4">
                                 <a href="#" class="hover:underline">Australia</a>

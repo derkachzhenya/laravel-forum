@@ -23,7 +23,7 @@ import Footer from '@/Components/Footer.vue';
     <!--Text-->
     <div>
         <h1
-            class="mb-4 mt-8 px-4 text-3xl font-bold leading-none tracking-tight text-gray-900 text-center sm:text-3xl lg:text-4xl dark:text-white">
+            class="mb-4 mt-8 px-4 text-3xl font-bold leading-none tracking-tight text-gray-900 text-center sm:text-3xl lg:text-4xl">
             Best Hotels and Shops Around the World</h1>
         <p class="w-3/4 mx-auto text-lg font-normal text-gray-500 text-center lg:text-xl dark:text-gray-400"> Discover
             Top-Rated Accommodations and Shopping Destinations.</p>
@@ -58,7 +58,7 @@ import Footer from '@/Components/Footer.vue';
                         <div class="p-4">
                             <a href="#">
                                 <h5
-                                    class="mb-2 text-lg font-bold text-center tracking-tight text-gray-900 dark:text-white">
+                                    class="mb-2 text-lg font-bold text-center tracking-tight text-gray-900">
                                     Berlin</h5>
                             </a>
                         </div>
@@ -77,7 +77,7 @@ import Footer from '@/Components/Footer.vue';
                         <div class="p-4">
                             <a href="#">
                                 <h5
-                                    class="mb-2 text-lg font-bold text-center tracking-tight text-gray-900 dark:text-white">
+                                    class="mb-2 text-lg font-bold text-center tracking-tight text-gray-900">
                                     Dubai</h5>
                             </a>
                         </div>
@@ -96,7 +96,7 @@ import Footer from '@/Components/Footer.vue';
                         <div class="p-4">
                             <a href="#">
                                 <h5
-                                    class="mb-2 text-lg font-bold text-center tracking-tight text-gray-900 dark:text-white">
+                                    class="mb-2 text-lg font-bold text-center tracking-tight text-gray-900">
                                     Ukraine</h5>
                             </a>
                         </div>
@@ -115,7 +115,7 @@ import Footer from '@/Components/Footer.vue';
                         <div class="p-4">
                             <a href="#">
                                 <h5
-                                    class="mb-2 text-lg font-bold text-center tracking-tight text-gray-900 dark:text-white">
+                                    class="mb-2 text-lg font-bold text-center tracking-tight text-gray-900">
                                     New York</h5>
                             </a>
                         </div>

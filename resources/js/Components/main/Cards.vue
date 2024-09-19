@@ -6,15 +6,11 @@
     <section class="w-5/6 sm:w-3/4 mx-auto bg-white mt-5">
         <div>
             <h1
-                class="mb-4 mt-8 px-4 text-3xl font-bold leading-none tracking-tight text-gray-900 text-center sm:text-3xl lg:text-4xl">
+                class="mb-4 mt-8 px-4 text-xl font-bold leading-none tracking-tight text-gray-900 text-center sm:text-2xl lg:text-1xl">
                 Best Restaurants and Dining Spots for Delicious Food</h1>
-            <p class="w-3/4 mx-auto text-lg font-normal text-gray-500 text-center lg:text-xl dark:text-gray-400">Top
-                Restaurants & Dining: Your Guide to Delicious Food Experiences</p>
             <!--EndText-->
         </div>
         <div class="mt-5">
-
-
             <div
                 class="grid mb-8 border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 md:mb-12 md:grid-cols-2 bg-white dark:bg-gray-800">
                 <figure

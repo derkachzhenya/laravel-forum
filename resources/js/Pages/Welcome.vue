@@ -1,10 +1,11 @@
 <script setup>
 import { Head, Link } from '@inertiajs/vue3';
-import Header from '@/Components/Header.vue';
-import Banner from '@/Components/Banner.vue';
-import Search from '@/Components/Search.vue';
-import Map from '@/Components/Map.vue';
-import Footer from '@/Components/Footer.vue';
+import Header from '@/Components/main/Header.vue';
+import Banner from '@/Components/main/Banner.vue';
+import Search from '@/Components/main/Search.vue';
+import Map from '@/Components/main/Map.vue';
+import Cards from '@/Components/main/Cards.vue';
+import Footer from '@/Components/main/Footer.vue';
 
 
 </script>
@@ -21,14 +22,7 @@ import Footer from '@/Components/Footer.vue';
 
 
     <!--Text-->
-    <div>
-        <h1
-            class="mb-4 mt-8 px-4 text-3xl font-bold leading-none tracking-tight text-gray-900 text-center sm:text-3xl lg:text-4xl">
-            Best Restaurants and Dining Spots for Delicious Food</h1>
-        <p class="w-3/4 mx-auto text-lg font-normal text-gray-500 text-center lg:text-xl dark:text-gray-400"> Discover
-            Top-Rated Accommodations and Shopping Destinations.</p>
-        <!--EndText-->
-    </div>
+    <Cards></Cards>
     <!--Card-->
 
     <!--EndCard-->
@@ -57,8 +51,7 @@ import Footer from '@/Components/Footer.vue';
                         </div>
                         <div class="p-4">
                             <a href="#">
-                                <h5
-                                    class="mb-2 text-lg font-bold text-center tracking-tight text-gray-900">
+                                <h5 class="mb-2 text-lg font-bold text-center tracking-tight text-gray-900">
                                     Berlin</h5>
                             </a>
                         </div>
@@ -76,8 +69,7 @@ import Footer from '@/Components/Footer.vue';
                         </div>
                         <div class="p-4">
                             <a href="#">
-                                <h5
-                                    class="mb-2 text-lg font-bold text-center tracking-tight text-gray-900">
+                                <h5 class="mb-2 text-lg font-bold text-center tracking-tight text-gray-900">
                                     Dubai</h5>
                             </a>
                         </div>
@@ -95,8 +87,7 @@ import Footer from '@/Components/Footer.vue';
                         </div>
                         <div class="p-4">
                             <a href="#">
-                                <h5
-                                    class="mb-2 text-lg font-bold text-center tracking-tight text-gray-900">
+                                <h5 class="mb-2 text-lg font-bold text-center tracking-tight text-gray-900">
                                     Ukraine</h5>
                             </a>
                         </div>
@@ -114,8 +105,7 @@ import Footer from '@/Components/Footer.vue';
                         </div>
                         <div class="p-4">
                             <a href="#">
-                                <h5
-                                    class="mb-2 text-lg font-bold text-center tracking-tight text-gray-900">
+                                <h5 class="mb-2 text-lg font-bold text-center tracking-tight text-gray-900">
                                     New York</h5>
                             </a>
                         </div>
@@ -134,5 +124,3 @@ import Footer from '@/Components/Footer.vue';
 
 
 </template>
-
-

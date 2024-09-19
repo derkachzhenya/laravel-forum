@@ -92,10 +92,10 @@
 <script setup>
 import { Head, Link } from '@inertiajs/vue3';
 import { ref } from "vue";
-import Header from '@/Components/Header.vue';
-import Banner from '@/Components/Banner.vue';
-import Map from '@/Components/Map.vue';
-import Footer from '@/Components/Footer.vue';
+import Header from '@/Components/main/Header.vue';
+import Banner from '@/Components/main/Banner.vue';
+import Map from '@/Components/main/Map.vue';
+import Footer from '@/Components/main/Footer.vue';
 
 
 </script>

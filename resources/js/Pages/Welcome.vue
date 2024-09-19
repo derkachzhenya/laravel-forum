@@ -38,7 +38,7 @@ import Footer from '@/Components/Footer.vue';
     <div class="w-full mx-auto bg-teal-100 rounded-lg mb-8">
         <!--TwoText-->
         <h1
-            class="mb-4 mt-10 pt-10 w-3/4 mx-auto text-2xl font-bold leading-none tracking-tight text-gray-900 sm:text-lg lg:text-2xl dark:text-white">
+            class="mb-4 mt-10 pt-10 w-3/4 mx-auto text-2xl font-bold leading-none tracking-tight text-gray-900 sm:text-lg lg:text-2xl">
             Best Hotels and Shops Around the World</h1>
         <p class="w-3/4 mx-auto text-base font-normal text-gray-500 lg:text-base dark:text-gray-400">Are you seeking
             luxurious hotel stays or unique shopping experiences during your travels? Look no further than our expertly

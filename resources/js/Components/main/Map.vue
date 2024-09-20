@@ -5,7 +5,7 @@
     <!--Map-->
     <section class="w-3/4 mx-auto bg-white">
         <h2
-            class="mt-8 lg:mt-3 text-2xl font-extrabold leading-none tracking-tight text-gray-900 text-center sm:text-lg lg:text-2xl">
+            class="sm:mb-4 mt-8 lg:mt-3 text-2xl font-extrabold leading-none tracking-tight text-gray-900 text-center sm:text-lg lg:text-2xl">
             Countries Grouped by Continent: Africa, Asia, Europe, America</h2>
         <div class="mx-auto p-4 py-3 bg-white sm:py-0">
             <div class="lg:flex">

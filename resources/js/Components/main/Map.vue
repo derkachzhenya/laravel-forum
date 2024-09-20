@@ -7,10 +7,10 @@
         <h2
             class="mb-4 mt-8 lg:mt-3 text-4xl font-extrabold leading-none tracking-tight text-gray-900 text-center sm:text-lg lg:text-4xl">
             Countries Grouped by Continent: Africa, Asia, Europe, America</h2>
-        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 bg-white sm:py-0 lg:py-8">
+        <div class="mx-auto p-4 py-6 bg-white sm:py-0">
             <div class="lg:flex">
                 <div class="md:mb-6 md:mr-8">
-                    <img class="h-28 w-28 sm:h-20 sm:w-24 lg:h-48 lg:w-56  mx-auto" :src="'/earth.webp'"
+                    <img class="h-28 w-28 sm:h-24 sm:w-24 md:h-28 md:w-28 lg:h-36 lg:w-56 xl:h-48 xl:w-52  mx-auto" :src="'/earth.webp'"
                         alt="image description">
                 </div>
                 <div class="grid grid-cols-2 gap-x-24 gap-y-8 mt-10 sm:mt-1 sm:gap-6 sm:grid-cols-6">

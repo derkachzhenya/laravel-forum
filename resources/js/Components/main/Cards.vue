@@ -206,7 +206,7 @@
     <!--EndCards-->
     <div class="grid w-3/4 mx-auto justify-items-end">
     <a href="#"
-        class="inline-flex items-center justify-center p-5 text-base font-medium text-gray-500 rounded-lg bg-gray-100 hover:text-gray-900 hover:bg-gray-200 dark:text-gray-400 dark:hover:text-white">
+        class="inline-flex items-center justify-center p-5 text-base font-medium text-gray-500 rounded-lg bg-gray-100 border-gray-200 hover:text-gray-900 hover:bg-gray-200 dark:text-gray-400 dark:hover:text-white">
         <svg aria-hidden="true" class="w-6 h-6 me-3" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z" fill="#FF6347"/>
             <path d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z" fill="#FFA07A"/>

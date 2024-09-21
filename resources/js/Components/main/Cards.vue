@@ -141,7 +141,7 @@
                     </div>
                 </figure>
                 <figure
-                    class="flex flex-col items-center justify-center p-8 text-center bg-white border-t border-gray-200 md:rounded-es-lg md:border-e dark:border-gray-700">
+                    class="flex flex-col items-center justify-center p-8 text-center bg-white border-t border-gray-200 md:rounded-es-lg md:border-e">
                     <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
                         <h3 class="text-xl font-bold text-gray-900 hover:underline ">Mindblowing
                             workflow</h3>
@@ -171,7 +171,7 @@
                     </div>
                 </figure>
                 <figure
-                    class="flex flex-col items-center justify-center p-8 text-center bg-white border-t border-gray-200 rounded-b-lg md:rounded-se-lg dark:border-gray-700">
+                    class="flex flex-col items-center justify-center p-8 text-center bg-white border-t border-gray-200 rounded-b-lg md:rounded-se-lg">
                     <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
                         <h3 class="text-xl font-bold text-gray-900 hover:underline ">Efficient
                             Collaborating</h3>

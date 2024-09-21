@@ -12,9 +12,9 @@
         </div>
         <div class="mt-5">
             <div
-                class="grid mb-8 border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 md:mb-12 md:grid-cols-2 bg-white">
+                class="grid mb-8 border border-gray-200 rounded-lg shadow-sm md:mb-12 md:grid-cols-2 bg-white">
                 <figure
-                    class="flex flex-col items-center justify-center p-8 text-center bg-white border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:border-gray-700">
+                    class="flex flex-col items-center justify-center p-8 text-center bg-white border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e">
                     <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
                         <a href="#">
                             <h3
@@ -50,7 +50,7 @@
                     </div>
                 </figure>
                 <figure
-                    class="flex flex-col items-center justify-center p-8 text-center bg-white border-t md:border-t-0 border-gray-200 md:rounded-se-l dark:border-gray-700">
+                    class="flex flex-col items-center justify-center p-8 text-center bg-white border-t md:border-t-0 border-gray-200 md:rounded-se-l">
                     <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
                         <h3 class="text-xl font-bold text-gray-900 hover:underline">Solid foundation for
                             any project
@@ -81,7 +81,7 @@
                     </div>
                 </figure>
                 <figure
-                    class="flex flex-col items-center justify-center p-8 text-center bg-white border-t border-gray-200 md:rounded-es-lg md:border-e dark:border-gray-700">
+                    class="flex flex-col items-center justify-center p-8 text-center bg-white border-t border-gray-200 md:rounded-es-lg md:border-e">
                     <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
                         <h3 class="text-xl font-bold text-gray-900 hover:underline ">Mindblowing
                             workflow</h3>
@@ -111,7 +111,7 @@
                     </div>
                 </figure>
                 <figure
-                    class="flex flex-col items-center justify-center p-8 text-center bg-white border-t border-gray-200 rounded-b-lg md:rounded-se-lg dark:border-gray-700">
+                    class="flex flex-col items-center justify-center p-8 text-center bg-white border-t border-gray-200 rounded-b-lg md:rounded-se-lg">
                     <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
                         <h3 class="text-xl font-bold text-gray-900 hover:underline ">Efficient
                             Collaborating</h3>

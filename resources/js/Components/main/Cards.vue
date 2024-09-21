@@ -18,7 +18,7 @@
                     <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
                         <a href="#">
                             <h3
-                                class="text-xl font-bold text-gray-800 hover:text-gray-900 hover:underline  dark:text-white">
+                                class="text-xl font-bold text-gray-800 hover:text-gray-900 hover:underline">
                                 Puzata
                                 hata
                             </h3>
@@ -31,7 +31,7 @@
                     </blockquote>
                     <figcaption class="flex items-center justify-center ">
                         <img class="rounded-full w-9 h-9" :src="'/menu/1.jpg'" alt="profile picture">
-                        <div class="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
+                        <div class="space-y-0.5 font-medium text-left rtl:text-right ms-3">
                             <div>Kiev, Lviv </div>
                             <div class="text-sm text-gray-500 dark:text-gray-400">Ukranian food</div>
                         </div>

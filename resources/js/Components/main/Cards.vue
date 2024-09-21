@@ -50,9 +50,9 @@
                     </div>
                 </figure>
                 <figure
-                    class="flex flex-col items-center justify-center p-8 text-center bg-white border-t md:border-t-0 border-gray-200 md:rounded-se-lg dark:bg-gray-800 dark:border-gray-700">
+                    class="flex flex-col items-center justify-center p-8 text-center bg-white border-t md:border-t-0 border-gray-200 md:rounded-se-l dark:border-gray-700">
                     <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-                        <h3 class="text-xl font-bold text-gray-900 dark:text-white hover:underline">Solid foundation for
+                        <h3 class="text-xl font-bold text-gray-900 hover:underline">Solid foundation for
                             any project
                         </h3>
                         <p class="my-4">Designing with Figma components that can be easily translated to the utility
@@ -62,7 +62,7 @@
                         <img class="rounded-full w-9 h-9"
                             src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png"
                             alt="profile picture">
-                        <div class="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
+                        <div class="space-y-0.5 font-medium text-left rtl:text-right ms-3">
                             <div>Roberta Casas</div>
                             <div class="text-sm text-gray-500 dark:text-gray-400">Lead designer at Dropbox</div>
                         </div>
@@ -81,9 +81,9 @@
                     </div>
                 </figure>
                 <figure
-                    class="flex flex-col items-center justify-center p-8 text-center bg-white border-t border-gray-200 md:rounded-es-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
+                    class="flex flex-col items-center justify-center p-8 text-center bg-white border-t border-gray-200 md:rounded-es-lg md:border-e dark:border-gray-700">
                     <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-                        <h3 class="text-xl font-bold text-gray-900 dark:text-white hover:underline ">Mindblowing
+                        <h3 class="text-xl font-bold text-gray-900 hover:underline ">Mindblowing
                             workflow</h3>
                         <p class="my-4">Aesthetically, the well designed components are beautiful and will undoubtedly
                             level up your next application."</p>
@@ -92,7 +92,7 @@
                         <img class="rounded-full w-9 h-9"
                             src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
                             alt="profile picture">
-                        <div class="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
+                        <div class="space-y-0.5 font-medium text-left rtl:text-right ms-3">
                             <div>Jese Leos</div>
                             <div class="text-sm text-gray-500 dark:text-gray-400">Software Engineer at Facebook</div>
                         </div>
@@ -111,9 +111,9 @@
                     </div>
                 </figure>
                 <figure
-                    class="flex flex-col items-center justify-center p-8 text-center bg-white border-t border-gray-200 rounded-b-lg md:rounded-se-lg dark:bg-gray-800 dark:border-gray-700">
+                    class="flex flex-col items-center justify-center p-8 text-center bg-white border-t border-gray-200 rounded-b-lg md:rounded-se-lg dark:border-gray-700">
                     <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-                        <h3 class="text-xl font-bold text-gray-900 dark:text-white hover:underline ">Efficient
+                        <h3 class="text-xl font-bold text-gray-900 hover:underline ">Efficient
                             Collaborating</h3>
                         <p class="my-4">You have many examples that can be used to create a fast prototype for your
                             team."</p>
@@ -122,7 +122,7 @@
                         <img class="rounded-full w-9 h-9"
                             src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png"
                             alt="profile picture">
-                        <div class="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
+                        <div class="space-y-0.5 font-medium text-left rtl:text-right ms-3">
                             <div>Joseph McFall</div>
                             <div class="text-sm text-gray-500 dark:text-gray-400">CTO at Google</div>
                         </div>
@@ -141,9 +141,9 @@
                     </div>
                 </figure>
                 <figure
-                    class="flex flex-col items-center justify-center p-8 text-center bg-white border-t border-gray-200 md:rounded-es-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
+                    class="flex flex-col items-center justify-center p-8 text-center bg-white border-t border-gray-200 md:rounded-es-lg md:border-e dark:border-gray-700">
                     <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-                        <h3 class="text-xl font-bold text-gray-900 dark:text-white hover:underline ">Mindblowing
+                        <h3 class="text-xl font-bold text-gray-900 hover:underline ">Mindblowing
                             workflow</h3>
                         <p class="my-4">Aesthetically, the well designed components are beautiful and will undoubtedly
                             level up your next application."</p>
@@ -152,7 +152,7 @@
                         <img class="rounded-full w-9 h-9"
                             src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
                             alt="profile picture">
-                        <div class="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
+                        <div class="space-y-0.5 font-medium text-left rtl:text-right ms-3">
                             <div>Jese Leos</div>
                             <div class="text-sm text-gray-500 dark:text-gray-400">Software Engineer at Facebook</div>
                         </div>
@@ -171,9 +171,9 @@
                     </div>
                 </figure>
                 <figure
-                    class="flex flex-col items-center justify-center p-8 text-center bg-white border-t border-gray-200 rounded-b-lg md:rounded-se-lg dark:bg-gray-800 dark:border-gray-700">
+                    class="flex flex-col items-center justify-center p-8 text-center bg-white border-t border-gray-200 rounded-b-lg md:rounded-se-lg dark:border-gray-700">
                     <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-                        <h3 class="text-xl font-bold text-gray-900 dark:text-white hover:underline ">Efficient
+                        <h3 class="text-xl font-bold text-gray-900 hover:underline ">Efficient
                             Collaborating</h3>
                         <p class="my-4">You have many examples that can be used to create a fast prototype for your
                             team."</p>
@@ -182,7 +182,7 @@
                         <img class="rounded-full w-9 h-9"
                             src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png"
                             alt="profile picture">
-                        <div class="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
+                        <div class="space-y-0.5 font-medium text-left rtl:text-right ms-3">
                             <div>Joseph McFall</div>
                             <div class="text-sm text-gray-500 dark:text-gray-400">CTO at Google</div>
                         </div>

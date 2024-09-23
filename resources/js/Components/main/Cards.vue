@@ -11,7 +11,7 @@
             <!--EndText-->
         </div>
         <div class="mt-5">
-            <div class="grid mb-8 border border-gray-200 rounded-lg shadow-sm md:mb-12 md:grid-cols-2 bg-white">
+            <div class="grid mb-5 border border-gray-200 rounded-lg shadow-sm md:mb-4 md:grid-cols-2 bg-white">
                 <figure
                     class="flex flex-col items-center justify-center p-8 text-center bg-white border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e">
                     <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">

@@ -3,7 +3,7 @@
 <template>
 
     <!--Cards-->
-    <section class="w-5/6 sm:w-3/4 mx-auto bg-white mt-5">
+    <section class="w-full mx-5 sm:w-3/4 sm:mx-auto bg-white mt-5">
         <div>
             <h1
                 class="mb-4 mt-8 px-4 text-xl font-bold leading-none tracking-tight text-gray-900 text-center sm:text-2xl lg:text-1xl">
